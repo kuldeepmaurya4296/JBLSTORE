@@ -1,0 +1,78 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.form{
+    width: 100%;
+    min-height: 100vh;
+    padding: 22vh 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form form{
+    border: 1px solid #ff3300;
+    box-shadow: 2px 4px 10px grey;
+    border-radius: 20px;
+    padding: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: verdana;
+    letter-spacing: -1px;
+    line-height: 30px;
+    transition: all .3s ease-in-out;
+}
+form:hover{
+    box-shadow: 2px 4px 10px #ff3300;   
+}
+.form form label{
+    border-bottom: 1px solid grey;
+    padding: 5px 0;
+}
+form input{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ff3300;
+}
+form input:focus{
+    border:2px solid #ff3300;
+}
+form span{
+    margin-top: -10px;
+    font-size: 13px;
+}
+.pagebtn{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+input[type='checkbox']{
+    cursor: pointer;
+    width: 40px;
+    border: 1px solid #ff3300;
+}
+.pagebtn input{
+    background-color: grey;
+    color: white;
+    transition: all .3s ease-in-out;
+    box-shadow: 4px 4px 12px #ff3300;
+}
+.pagebtn input:hover{
+    cursor: pointer;
+    background-color: #ff3300;
+    box-shadow: 4px 4px 12px grey;
+}
+.checkbox{
+    font-size: 14px;
+}
+
+@media (max-width:750px) {
+    .form{
+        min-height: 50vh;
+    }
+}

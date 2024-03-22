@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireless Bluetooth Speacker | JBL</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="icon" type="image/x-icon" href="../Images/jbllogo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css"
+        integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    #home {
+        object-fit: cover;
+        width: 100%;
+        height: 80%;
+        padding: 20px 0;
+        overflow: hidden;
+        background-color: white;
+    }
+
+    #home img {
+        margin-top: 9%;
+        width: 100%;
+        height: 70%;
+        margin-bottom: 20px;
+        z-index: 23456;
+    }
+
+    .text {
+        width: 50%;
+        position: absolute;
+        top: 38%;
+        left: 47%;
+        font-family: verdana;
+        font-weight: 900;
+        color: white;
+    }
+
+    .do-container {
+        widows: 100%;
+        height: 80%;
+        display: flex;
+        padding: 30px;
+        background-color: rgb(194, 194, 194);
+    }
+    
+    .container{
+        background-color: white;
+        width: 50%;
+        height: 90%;
+        margin-right: 20px;
+        font-family: verdana;
+        padding: 20px;
+    }
+    .top-cont {
+        width: 100%;
+        border-bottom: 2px solid #ff3300d8;
+
+    }
+
+    .btm-cont {
+        display: flex;
+        padding: 20px 0;
+        font-weight: 800;
+    }
+
+    .left-btm-cont {
+        width: 50%;
+        height: 100%;
+    }
+
+    .left-btm-cont button{
+        padding: 20px 20px;
+        border: none;
+        background-color: #ff3300d8;
+        margin-top: 30px;
+        font-size: 16px;
+        font-weight: 800;
+        color: white;
+        border-radius: 40px;
+        transition: all ease-in-out .4s;
+    }
+    .left-btm-cont button:hover{
+        background-color: white;
+        border: 2px solid #ff3300d8;
+        cursor: pointer;
+        color: #ff3300d8;
+    }
+    .right-btm-cont {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-btm-cont img{
+        width: 300px;
+    }
+    @media (max-width:750px) {
+        #home{
+            height: 50%;
+            position: relative;
+        }
+        .text{
+            width: 100%;
+        }
+        .do-container{
+            flex-direction: column;
+            height: fit-content;
+        }
+        .container{
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .btm-cont{
+            flex-direction: column;
+        }
+        .left-btm-cont{
+            width: 100%;
+            text-align: justify;
+        }
+        .right-btm-cont{
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <div id="main">
+        <div class="navbar">
+            <div class="top-nav">
+                <div class="top-nav-content">
+                    <a href="https://support.jbl.com/mm/en/customer-service/buy-authentic.html">Buy Authentic</a>
+                    <a href="https://support.jbl.com/mm/en/#support-knowledgebase">Support</a>
+                </div>
+            </div>
+            <div class="bottom-nav">
+                <div class="bottom-nav-left">
+                    <a href="../index.html" class="logo">
+                        <img src="../Images/jbllogo.png" alt="">
+                    </a>
+                    <a href="wireless.html" class="archives">
+                        <p> Wireless</p>
+                        <div class="archive">
+                            <div class="two-img">
+                                <div class="nav-imgs">
+                                    <img src="../Images/nav_wireless1.webp" alt="">
+                                    <br><span>Portables</span>
+                                </div>
+                                <div class="nav-imgs">
+                                    <img src="../Images/nav_wireless2.webp" alt="">
+                                    <br><span>Iconic Bluetooth Speakers</span>
+
+                                </div>
+
+                            </div>
+                            <div class="one-img">
+                                <img src="../Images/nav_wireless3.webp" alt="">
+                            </div>
+                        </div>
+
+                    </a>
+                    <a href="hedphones.html" class="archives">
+                        <p>Headphones</p>
+                        <div class="archive">
+                            <div class="archive-items">
+                                <div class="nav-imgs">
+                                    <img src="../Images/nav_headphone1.webp" alt="">
+                                    <br><span>Over-Ear & On-Ear Headphones</span>
+                                </div>
+                                <div class="nav-imgs">
+                                    <img src="../Images/nav_headphone2.webp" alt="">
+                                    <br><span>In-Ear Headphones</span>
+                                </div>
+                                <div class="nav-imgs">
+                                    <img src="../Images/nav_headphone3.webp">
+                                    <br><span>Wireless Headphones</span>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </a>
+                    <a href="homeAudio.html" class="archives">
+                        <p>Home Audio</p>
+                        <div class="archive">
+                            <div class="archive-items">
+                                <div class="nav-imgs">
+                                    <img src="../Images/nav_home1.webp" alt="">
+                                    <br><span>Soundbars</span>
+                                </div>
+                                <div class="nav-imgs">
+                                    <img src="../Images/nav_home2.webp" alt="">
+                                    <br><span>Loudspeakers</span>
+                                </div>
+                                <div class="nav-imgs">
+                                    <img src="../Images/nav_home3.webp" alt="">
+                                    <br><span>Home Speakers</span>
+                                </div>
+                                <div class="nav-imgs">
+                                    <img src="../Images/nav_home4.webp" alt="">
+                                    <br><span>Turntables</span>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+                <div class="bottom-nav-right">
+                    <input type="text" class="nav-search" placeholder="search">
+                    <i class="ri-search-line" >
+                    </i>
+                    <div class="user">
+                        <i class="ri-user-2-fill" style="border: 1px solid rgb(7, 7, 7); padding: 5px;border-radius: 50%;"></i>
+
+                        <div class="loginbtn">
+                            <a href="/HTML/login.html">Login</a>
+                            <a href="/HTML/login.html">Signup</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="home">
+            <img src="../Images/wirepage-banner.webp" alt="">
+            <!-- <p>Home>wireless</p> -->
+            <div class="text">
+                <h1>Wireless</h1>
+                <p>Stream music from your Bluetooth device to wireless speakers - for your music needs at home and on
+                    the go.</p>
+            </div>
+        </div>
+
+        <div class="home-gifs">
+            <div class="gleft">
+                <h1>JBL TUNE BEAM BESTSELING NC HEADPHONES & TWS RANGE STARTS AT 4999</h1>
+                <dizv class="gif">
+                    <img src="../Images/gif1.gif" alt="">
+                </dizv>
+            </div>
+            <div class="gleft">
+                <h1>JBL PARTYBOXES PARTY ESSENTIAL NO COST EMI AVAILABLE</h1>
+                <div class="gif">
+                    <img src="../Images/gif2.gif" alt="">
+                </div>
+            </div>
+           
+        </div>
+
+
+        <div class="do-container">
+            <div class="container">
+                <div class="top-cont">
+                    <h1>Portables</h1>
+                </div>
+                <div class="btm-cont">
+                    <div class="left-btm-cont">
+                        <p>
+                            Take your music with you with our range of portable Bluetooth speakers. Enjoy the benefits
+                            of powerful JBL sound and the freedom to go where you want. Order online.</p>
+                            <a href="./AllProducts.html"><button>View ALL 14 Portables</button></a>
+                    </div>
+                    <div class="right-btm-cont">
+                        <img src="../Images/nav_wireless1.webp" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="top-cont">
+                    <h1>Iconic Bluetooth Speakers</h1>
+                </div>
+                <div class="btm-cont">
+                    <div class="left-btm-cont">
+                        <p>
+                            Retro never sounded this classy. Inspired by products of decades past, our 2 latest launches
+                            fuse timeless heritage designs with the best of modern audio technologies, bringing you a
+                            sound that never goes out of style</p>
+                        <a href="./AllProducts.html"><button>View ALL 3 ICONIC BLUETOOTH SPEACKER</button></a>
+                    </div>
+                    <div class="right-btm-cont">
+                        <img src="../Images/nav_wireless2.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="popular-products">
+            <h1>Category</h1>
+            <div class="products">
+                <div class="product-card">
+                    <img src="../Images/headphone3.webp" alt="">
+                    <p>JBL Xtreme 3</p>
+                    <div class="dots">
+                        <div class="dot"><img src="Images/Home-img.webp" alt=""></div>
+                        <div class="dot"><img src="Images/jbllogo.png" alt=""></div>
+                        <div class="dot"><img src="Images/nav_wireless1.webp" alt=""></div>
+                    </div>
+                    <button><a href="./AllProducts.html">view product</button></a>
+                </div>
+
+                <div class="product-card">
+                    <img src="../Images/bestsell2.webp" alt="">
+                    <p>Party Speaker</p>
+                    <div class="dots">
+                        <div class="dot"><img src="Images/Home-img.webp" alt=""></div>
+                    </div>
+                    <button><a href="./AllProducts.html">view product</button></a>
+                </div>
+
+                <div class="product-card">
+                    <img src="../Images/homeaudio4.webp" alt="">
+                    <p>Sound Bar</p>
+                    <div class="dots">
+                        <div class="dot"><img src="Images/Home-img.webp" alt=""></div>
+                        <div class="dot"><img src="Images/nav_wireless1.webp" alt=""></div>
+                    </div>
+                    <button><a href="./AllProducts.html">view product</button></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="home-form">
+            <div class="form-left">
+                <div class="form-content">
+                    <h3>Sign up for the JBL Newsletter</h3>
+                    <p>View our Privacy Policy</p>
+                </div>
+
+            </div>
+            <div class="form-right">
+                <form action="../HTML/wireless.html">
+                    <input type="text" placeholder="Enter email address">
+                    <input type="submit" value="SIGN UP">
+                </form>
+            </div>
+        </div>
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="footer-boxes">
+                <div class="box">
+                    <a href="wireless.html">Wireless</a>
+                    <a href="hedphones.html">Headphones</a>
+                    <a href="homeAudio.html"> Home Audio</a>
+                </div>
+                <div class="box">
+                    <p>Support</p>
+                    <a href="#"> Buy Authenticate</a>
+                    <a href="#"> Product Support</a>
+                </div>
+                <div class="box">
+                    <p>About Us</p>
+                    <a href="#"> Hurman Corporate</a>
+                    <a href="#"> Career</a>
+                    <a href="#"> Privacy Policy</a>
+                    <a href="#"> Cookie Policy</a>
+                    <a href="#"> Site Index</a>
+                </div>
+                <div class="box">
+                    <p>Contact Us</p>
+                    <span>TMW <br> Address : No. (7/B), Maharsi Sarsana Yakethar street, Bahan Tsp, Yangon,
+                        Myanmar</span>
+                    <br>
+                    <span>Tel : <a href="#"> +959-97-400-5050</a></span><br>
+                    <span>Email : <a href="zawzawaung@tmwmyanmar.com"> zawzawaung@tmwmyanmar.com </a></span>
+                    <br>
+                    <span>Operating hours
+                        Mon - Sat: 9:30 a.m. - 5:00 p.m.</span>
+                    <br>
+                    <span>Sustainability 🌱</span>
+                    <a href="#">Follow Our Efforts</a>
+                </div>
+
+
+            </div>
+
+            <div class="footer-brands">
+                <div class="footer-logo">
+                    <img src="../Images/footer1.webp" alt="">
+                </div>
+                <hr>
+                <div class="footer-brand">
+                    <img src="../Images/footer2.webp" alt="">
+                    <img src="../Images/footer3.webp" alt="">
+
+                    <img src="../Images/footer4.webp" alt="">
+
+                    <img src="../Images/footer5.webp" alt="">
+
+                    <img src="../Images/footer6.webp" alt="">
+
+                    <img src="../Images/footer7.webp" alt="">
+
+                    <img src="../Images/footer8.webp" alt="">
+
+                    <img src="../Images/footer9.webp" alt="">
+
+                </div>
+
+            </div>
+            <div class="footer-end">
+                © 2024 Harman International Industries, Incorporated. All rights reserved.
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
